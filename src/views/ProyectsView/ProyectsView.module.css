@@ -1,0 +1,78 @@
+.proyects{
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8vh 0;
+}
+
+.proyects h2{
+    
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 10px;
+    
+}
+
+.cards .card {
+    width: 277px;
+    height: auto;
+    border: 2px solid rgb(33, 177, 193) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgb(57, 158, 181);;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cards .card:hover {
+    transform: translateY(-3px);
+}
+
+.cards .card img{
+    border-radius: 7px 7px 0 0;
+}
+
+.cards .card p{
+    text-align: justify;
+    font-size: 11px;
+    padding: 0 10px;
+    color: #100f0f;
+    
+}
+
+.cards .card h3{
+    color: aliceblue;
+    text-align: center;
+}
+
+.cards .card .git {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.git:hover{
+    transform: scale(1.2);
+}
+
+.cards .card .tecno{
+    padding: 0 10px;
+    text-align: center;
+}
+
+
+
+ 
