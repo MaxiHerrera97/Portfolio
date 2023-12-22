@@ -12,6 +12,7 @@ body{
    
     min-height: 100vh;
     background: #323234;
+    overflow: hidden;
 }
 
 .container{
@@ -25,7 +26,10 @@ body{
 
 .bubbles{
     position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
+    z-index: 1;
 }
 
 .bubbles span {
@@ -40,6 +44,7 @@ body{
     0 0 100px #4fc3dc;
     animation: animate 15s linear infinite;
     animation-duration: calc(125s / var(-i));
+    left: calc(random()*100%);
     
     
 }
