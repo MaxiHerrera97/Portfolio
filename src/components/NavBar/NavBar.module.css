@@ -48,6 +48,11 @@
   grid-template-columns: 20% 70% 20%;
   align-items: center;
     }
-
+.nav a{
+    font-size: 1rem;
+}
+.logo {
+    font-size: 1rem;
+}
     
 }
