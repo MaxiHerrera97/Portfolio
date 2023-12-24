@@ -20,8 +20,10 @@ const Home = () => {
          
         </article>
         <div className={StylesHome.buttons}>
+          <div className={StylesHome.img}>
           <img src={FotoAnthony} alt="FotoAnthony" title="FotoAnthony"/>
-            <div>
+           </div>
+            <div className={StylesHome.btn}>
               <a href={CVMaximilianoHerrera} download="CurriculumVitae">CV</a>
             </div>
 

@@ -1,12 +1,11 @@
 .divHeader {
   z-index: 9;
   width: 85%;
-  height: 6vh;
+  height: 10vh;
   margin: auto;
   display: grid;
   grid-template-columns: 15% 70% 15%;
   align-items: center;
-  
 
 }
 
@@ -38,9 +37,17 @@
     color: rgb(33, 177, 193);
    
 }
- 
 
+@media (max-width:398px){
+    .divHeader{
+  z-index: 9;
+  width: 85%;
+  height: 10vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 20% 70% 20%;
+  align-items: center;
+    }
 
-
-
-
+    
+}
